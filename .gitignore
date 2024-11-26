@@ -1,0 +1,27 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+.terraform/
+**/.terraform/
+
+# Ignore provider binaries
+**/registry.terraform.io/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore sensitive files (e.g., AWS credentials, terraform variables, etc.)
+*.pem
+*.key
+*.crt
+*.tfvars
